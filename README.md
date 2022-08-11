@@ -1,7 +1,7 @@
 # Software-for-GRL_BMRP22
 Scripts for GRL paper Bellucci et al. 2022 (Intermittent behaviour in AMOC-AMV relationship)  
 
-This script is a diagnostic tool used to perform the analyses presented in Bellucci et al.(2022; hereafter B22).
+B22_diag.py is the python code used to perform the analyses presented in Bellucci et al.(2022; hereafter B22).
 Specifically, the scripts implements a change point detection algorithm to identify changes in the statistical
 properties of an AMOC-AMV moving correlation data sequence. The algorithm is based on the Pruned Exact Linear Time
 (PELT) scheme (Killick et al., 2012) and requires the ruptures Python library, a package designed for the analysis
