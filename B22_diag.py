@@ -5,7 +5,7 @@ Created on Thu May 27 15:55:04 2021
 @author: LEN00398C
 """
 # This script is a diagnostic tool used to perform the analyses presented in Bellucci et al.(2022; hereafter B22).
-# Specifically, the scripts implements a change point detection algorithm to identify changes in the statistical
+# Specifically, the script implements a change point detection algorithm to identify changes in the statistical
 # properties of an AMOC-AMV moving correlation data sequence. The algorithm is based on the Pruned Exact Linear Time
 # (PELT) scheme (Killick et al., 2012) and requires the ruptures Python library, a package designed for the analysis
 # and segmentation of non-stationary signals (Truong et al., 2020). 
@@ -37,7 +37,8 @@ from scipy.stats import t
 import statsmodels.api as sm
 import pycwt as wavelet
 
-# Load unfiltered time series of AMV and AMOC index.
+# Load unfiltered time series of AMV and AMOC index. See B22 paper for details on how AMOC and AMV are
+# computed.
 
 sam0_amocmean=np.load('/home/bellucci/work/AMOC_AMV/Denis/Dati_Paper_DM/unfilt/sam0_amocmean.npy')
 cccma2_amocmean=np.load('/home/bellucci/work/AMOC_AMV/Denis/Dati_Paper_DM/unfilt/cccma2_amocmean.npy')
