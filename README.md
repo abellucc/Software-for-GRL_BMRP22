@@ -6,7 +6,7 @@ Specifically, the script implements a change point detection algorithm to identi
 properties of an AMOC-AMV moving correlation data sequence. The algorithm is based on the Pruned Exact Linear Time
 (PELT) scheme (Killick et al., 2012) and requires the ruptures Python library, a package designed for the analysis
 and segmentation of non-stationary signals (Truong et al., 2020). 
-Additionally, this script does also implement continuous wavelet transform analysis (Terrence and Compo (1998) and 
+Additionally, this script implements continuous wavelet transform analysis (Terrence and Compo, 1998) and 
 other statistical analyses as presented in B22.
 
 References
