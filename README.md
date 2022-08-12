@@ -1,5 +1,5 @@
 # Software-for-GRL_BMRP22
-Scripts for GRL paper Bellucci et al. 2022 (Intermittent behaviour in AMOC-AMV relationship)  
+Scripts for GRL paper Bellucci et al. 2022 (Intermittent behaviour in AMOC-AMV relationship, GRL, under review)  
 
 B22_diag.py is the python code used to perform the analyses presented in Bellucci et al.(2022; hereafter B22).
 Specifically, the script implements a change point detection algorithm to identify changes in the statistical
