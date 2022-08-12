@@ -101,8 +101,7 @@ for h in range(0,10):
     
     if h == 0:
         name='cccma1'
-        globals()['%s_amocmean' % name]=(globals()['%s_amocmean' % name]-globals()['%s_amocmean' % name].mean())/1e09
-        globals()['%s_amv' % name]=(globals()['%s_amv' % name]-globals()['%s_amv' % name].mean())
+        globals()['%s_amocmean' % name]=(globals()['%s_amocmean' % name]-globals()['%s_amocmean' % name].mean())
         m=0
         l=0
         name_model='CANESM5 P1'
@@ -111,8 +110,7 @@ for h in range(0,10):
     
     if h==1:
         name='sam0'
-        globals()['%s_amocmean' % name]=(globals()['%s_amocmean' % name]-globals()['%s_amocmean' % name].mean())/1e09
-        globals()['%s_amv' % name]=(globals()['%s_amv' % name]-globals()['%s_amv' % name].mean())
+        globals()['%s_amocmean' % name]=(globals()['%s_amocmean' % name]-globals()['%s_amocmean' % name].mean())
         m=0
         l=1
         name_model='SAM0-UNICON'
@@ -120,8 +118,7 @@ for h in range(0,10):
         
     if h==2:
         name='cesm2'
-        globals()['%s_amocmean' % name]=(globals()['%s_amocmean' % name]-globals()['%s_amocmean' % name].mean())/1e09
-        globals()['%s_amv' % name]=(globals()['%s_amv' % name]-globals()['%s_amv' % name].mean())
+        globals()['%s_amocmean' % name]=(globals()['%s_amocmean' % name]-globals()['%s_amocmean' % name].mean())
         m=1
         l=0
         name_model='CESM2'
@@ -129,8 +126,7 @@ for h in range(0,10):
     
     if h==3:
         name='mpi'
-        globals()['%s_amocmean' % name]=(globals()['%s_amocmean' % name]-globals()['%s_amocmean' % name].mean())/1e09
-        globals()['%s_amv' % name]=(globals()['%s_amv' % name]-globals()['%s_amv' % name].mean())
+        globals()['%s_amocmean' % name]=(globals()['%s_amocmean' % name]-globals()['%s_amocmean' % name].mean())
         m=1
         l=1
         name_model='MPI-ESM2-LR'
@@ -138,8 +134,7 @@ for h in range(0,10):
  
     if h==4:
         name='ham'
-        globals()['%s_amocmean' % name]=(globals()['%s_amocmean' % name]-globals()['%s_amocmean' % name].mean())/1e09
-        globals()['%s_amv' % name]=(globals()['%s_amv' % name]-globals()['%s_amv' % name].mean())
+        globals()['%s_amocmean' % name]=(globals()['%s_amocmean' % name]-globals()['%s_amocmean' % name].mean())
         m=2
         l=0
         name_model='MPI-ESM2-HAM'
@@ -147,8 +142,7 @@ for h in range(0,10):
 
     if h==5:
         name='cccma2'
-        globals()['%s_amocmean' % name]=(globals()['%s_amocmean' % name]-globals()['%s_amocmean' % name].mean())/1e09
-        globals()['%s_amv' % name]=(globals()['%s_amv' % name]-globals()['%s_amv' % name].mean())
+        globals()['%s_amocmean' % name]=(globals()['%s_amocmean' % name]-globals()['%s_amocmean' % name].mean())
         m=2
         l=1
         name_model='CANESM5 P2'
@@ -157,9 +151,6 @@ for h in range(0,10):
     if h==6:
         name='inm_cm5_0'
         globals()['%s_amocmean' % name]=(globals()['%s_amocmean' % name]-globals()['%s_amocmean' % name].mean())
-        globals()['%s_amocmean' % name]=signal.detrend(globals()['%s_amocmean' % name])
-        globals()['%s_amv' % name]=signal.detrend(globals()['%s_amv' % name])
-        globals()['%s_amv' % name]
         m=3
         l=0
         name_model='INM CM5 0'
